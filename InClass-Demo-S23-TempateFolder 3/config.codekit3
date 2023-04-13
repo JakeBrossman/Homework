@@ -9,12 +9,12 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/assets\/about-left.jpg" : {
+    "\/Assets\/article1.jpg" : {
       "ft" : 16384,
-      "iS" : 240900,
+      "iS" : 1506849,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/about-left.jpg",
+      "oAP" : "\/Assets\/article1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,12 +22,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/about.jpg" : {
+    "\/Assets\/article2.jpg" : {
       "ft" : 16384,
-      "iS" : 252641,
+      "iS" : 2689782,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/about.jpg",
+      "oAP" : "\/Assets\/article2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -35,52 +35,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Andriod.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/Andriod.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/Apple.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/Apple.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/aws.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/aws.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/Google.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/Google.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/hero-2.jpg" : {
+    "\/Assets\/article3.jpeg" : {
       "ft" : 16384,
-      "iS" : 1003073,
+      "iS" : 2026831,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/hero-2.jpg",
+      "oAP" : "\/Assets\/article3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -88,12 +48,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/hero.jpg" : {
+    "\/Assets\/article4.jpg" : {
       "ft" : 16384,
-      "iS" : 479600,
+      "iS" : 5505762,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/hero.jpg",
+      "oAP" : "\/Assets\/article4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -101,43 +61,96 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/In-class-S23.fig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/Assets\/article5.jpeg" : {
+      "ft" : 16384,
+      "iS" : 250019,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/In-class-S23.fig",
-      "oF" : 0
-    },
-    "\/assets\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/logo.svg",
+      "oAP" : "\/Assets\/article5.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/assets\/MS.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/MS.svg",
+    "\/Assets\/engineicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 5188557,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/engineicon.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/assets\/reddit.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/reddit.svg",
+    "\/Assets\/greygtr.jpeg" : {
+      "ft" : 16384,
+      "iS" : 339934,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/greygtr.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 2662175,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/redbluegtr.jpg" : {
+      "ft" : 16384,
+      "iS" : 2333359,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/redbluegtr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/wheelicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 1460369,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/wheelicon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/whitegtr.jpg" : {
+      "ft" : 16384,
+      "iS" : 2223843,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/whitegtr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -150,6 +163,149 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/circles\/engineicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 5188557,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/circles\/engineicon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/circles\/wheelicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 1460369,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/circles\/wheelicon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/heroes\/greygtr.jpeg" : {
+      "ft" : 16384,
+      "iS" : 339934,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/greygtr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/heroes\/Hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 2662175,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/Hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/heroes\/redbluegtr.jpg" : {
+      "ft" : 16384,
+      "iS" : 2333359,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/redbluegtr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/heroes\/whitegtr.jpg" : {
+      "ft" : 16384,
+      "iS" : 2223843,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/whitegtr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/whats new\/article1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1506849,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/whats new\/article1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/whats new\/article2.jpg" : {
+      "ft" : 16384,
+      "iS" : 2689782,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/whats new\/article2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/whats new\/article3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 2026831,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/whats new\/article3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/whats new\/article4.jpg" : {
+      "ft" : 16384,
+      "iS" : 5505762,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/whats new\/article4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/whats new\/article5.jpeg" : {
+      "ft" : 16384,
+      "iS" : 250019,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/whats new\/article5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -395,7 +551,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 702560800.42181301,
-    "displayValue" : "InClass-Demo-S23",
+    "displayValue" : "InClass-Demo-S23-TempateFolder 3",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0
