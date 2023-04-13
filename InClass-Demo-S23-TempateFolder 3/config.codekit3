@@ -190,6 +190,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/global\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 118101,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/global\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/heroes\/greygtr.jpeg" : {
       "ft" : 16384,
       "iS" : 339934,
@@ -326,6 +339,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -346,7 +367,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
