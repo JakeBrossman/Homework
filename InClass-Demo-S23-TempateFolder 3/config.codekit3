@@ -403,6 +403,18 @@
       "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
+    "\/dev\/global\/header-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/header-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/global\/header.css" : {
       "aP" : 1,
       "bl" : 0,
