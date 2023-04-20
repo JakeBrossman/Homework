@@ -327,6 +327,20 @@ template {
 /* =============
     Base
 ============= */
+.header-footer-grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header-footer  .";
+  background-color: rgb(3, 61, 61);
+}
+.header-footer-grid > div {
+  grid-area: header-footer;
+}
+
+.large-images {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -360,3 +374,31 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+   header
+============= */
+#gallery {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". gallery .";
+}
+#gallery > div {
+  grid-area: gallery;
+}
+
+/* =============
+   new
+============= */
+#new {
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". new .";
+}
+#new > div {
+  grid-area: new;
+}
+
+/* =============
+   hereos
+============= */
+/*---------- hero 2 ---------------*/
