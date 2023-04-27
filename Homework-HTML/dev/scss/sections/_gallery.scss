@@ -3,10 +3,24 @@
 ============= */
 #gallery{
     display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". gallery ." ;
+    grid-template-columns: (repeat, 1fr);
+    grid-template-areas: "image" ;
+   
+   
 
     >div{
         grid-area: gallery ;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 24px;
+      
+      ul{
+        list-style: none;
+        align-items: center;
+        @include md {
+            grid-template-columns: repeat(50%, 50%);
+          }
+      }
     }
 }
