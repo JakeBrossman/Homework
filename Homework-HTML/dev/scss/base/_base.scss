@@ -7,9 +7,39 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header-footer  ." ;
     background-color: rgba(3, 61, 61, 1);
- 
+    
     >div{
-        grid-area: header-footer ;
+        display: grid;
+        grid-template-columns: (repeat, 1fr);
+        grid-template-areas: "image";
+      
+          >div{
+           
+            #box1{
+               background-color: rgba(9, 188, 188, 1);
+               padding-top: 25px;
+               padding-bottom: 25px;
+            }
+            #box2{
+               background-color: rgba(5, 255, 255, 1);
+               padding-top: 25px;
+               padding-bottom: 25px;
+            }
+            
+            #ride{
+               background-color: rgba(126, 126, 119, 1); 
+                  width: 50%;
+                  height: auto; 
+                }
+              
+            
+            #engine{
+               background-color: rgba(126, 126, 119, 1); 
+               width: 50%;
+                height: auto;
+                
+            }
+          }
     }
 }
 

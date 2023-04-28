@@ -5,15 +5,36 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". new ." ;
-
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+     }
+     
     >div{
         grid-area: new ;
+        ul{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 24px;
+
+            @include md {
+                grid-template-columns: repeat(2, 1fr);
+              }
+
         li{
             list-style: none;
+            background-color: rgba(248, 249, 250, 1);
+            padding-top: 0px;
+            padding-bottom: 50px;
+            text-align: left;
+            text-indent: 16px;
+            
         };
-    }
+        }
 }
 .button{
     background-color: rgba(5, 255, 255, 1);
+    
     ;
+}
 }

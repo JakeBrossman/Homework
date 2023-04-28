@@ -334,7 +334,29 @@ template {
   background-color: rgb(3, 61, 61);
 }
 .header-footer-grid > div {
-  grid-area: header-footer;
+  display: grid;
+  grid-template-columns: repeat, 1fr;
+  grid-template-areas: "image";
+}
+.header-footer-grid > div > div #box1 {
+  background-color: rgb(9, 188, 188);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-footer-grid > div > div #box2 {
+  background-color: rgb(5, 255, 255);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-footer-grid > div > div #ride {
+  background-color: rgb(126, 126, 119);
+  width: 50%;
+  height: auto;
+}
+.header-footer-grid > div > div #engine {
+  background-color: rgb(126, 126, 119);
+  width: 50%;
+  height: auto;
 }
 
 .large-images {
@@ -386,21 +408,26 @@ textarea {
   grid-template-columns: repeat, 1fr;
   grid-template-areas: "image";
 }
-#gallery > div {
+@media (min-width: 1440px) {
+  #gallery {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#gallery > div ul {
   grid-area: gallery;
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 24px;
-}
-#gallery > div ul {
-  list-style: none;
-  align-items: center;
+  gap: 0px;
 }
 @media (min-width: 768px) {
   #gallery > div ul {
-    grid-template-columns: repeat(50%, 50%);
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+#gallery > div li {
+  list-style: none;
+  align-items: center;
 }
 
 /* =============
@@ -411,35 +438,57 @@ textarea {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". new .";
 }
+@media (min-width: 1440px) {
+  #new {
+    grid-template-columns: auto 1440px auto;
+  }
+}
 #new > div {
   grid-area: new;
 }
-#new > div li {
-  list-style: none;
+#new > div ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
 }
-
-.button {
+@media (min-width: 768px) {
+  #new > div ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#new > div ul li {
+  list-style: none;
+  background-color: rgb(248, 249, 250);
+  padding-top: 0px;
+  padding-bottom: 50px;
+  text-align: left;
+  text-indent: 16px;
+}
+#new .button {
   background-color: rgb(5, 255, 255);
 }
 
 /* =============
    hereos
 ============= */
-#hero #box1 {
-  background-color: rgb(9, 188, 188);
-  padding-top: 25px;
-  padding-bottom: 25px;
+#hero {
+  display: grid;
+  grid-template-columns: repeat, 1fr;
+  grid-template-areas: "image";
 }
-#hero #box2 {
-  background-color: rgb(5, 255, 255);
-  padding-top: 25px;
-  padding-bottom: 25px;
+@media (min-width: 1440px) {
+  #hero {
+    grid-template-columns: auto 1440px auto;
+  }
 }
-#hero #ride {
-  background-color: rgb(126, 126, 119);
+#hero > div {
+  grid-area: hero;
 }
-#hero #engine {
-  background-color: rgb(126, 126, 119);
+@media (min-width: 768px) {
+  #hero > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*---------- hero 2 ---------------*/

@@ -1,26 +1,35 @@
 /* =============
    header
 ============= */
-#gallery{
-    display: grid;
-    grid-template-columns: (repeat, 1fr);
-    grid-template-areas: "image" ;
-   
-   
+#gallery {
+  display: grid;
+  grid-template-columns: (repeat, 1fr);
+  grid-template-areas: "image";
+  @include xxl{
+    grid-template-columns: auto 1440px auto;
+ }
+ 
+  > div {
+    ul {
+      grid-area: gallery;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 0px;
 
-    >div{
-        grid-area: gallery ;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        gap: 24px;
+      @include md {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+    }
+
+    li {
+      list-style: none;
+      align-items: center;
+
       
-      ul{
-        list-style: none;
-        align-items: center;
-        @include md {
-            grid-template-columns: repeat(50%, 50%);
-          }
+
+        
       }
     }
-}
+  }
