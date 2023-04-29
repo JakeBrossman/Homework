@@ -1,42 +1,48 @@
 /* =============
    hereos
 ============= */
-#hero{ 
-   display: grid;
-  grid-template-columns: (repeat, 1fr);
-  grid-template-areas: "image";
+#hero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero .";
 
-  @include xxl{
-   grid-template-columns: auto 1440px auto;
-}
+  @include xxl {
+    grid-template-columns: auto 1440px auto;
+  }
 
-    >div{
-      grid-area: hero;
-      aside{
-         @include md {
-            grid-template-columns: repeat(2, 1fr);
-          }
-      }
-      
-      
-     
-          
-          
+  > div {
+    grid-area: hero;
+    ul{
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 0px;
+
+      @include md {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
-
-  #car{
-   background-color: rgba(9, 188, 188, 1);
-   padding-top: 15px;
-   padding-bottom: 15px;
-   padding-left: 15px;
-
+    li{
+      list-style: none;
+      align-items: center;
+    }
+      
+    
   }
-#location{
-   background-color: rgba(5, 255, 255, 1);
-   padding-top: 15px;
-   padding-bottom: 15px;
-   padding-left: 15px;
+  #car {
+    background-color: rgba(9, 188, 188, 1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
+  }
+  #location {
+    background-color: rgba(5, 255, 255, 1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+
 }
 
 
@@ -44,6 +50,5 @@
 
 /*---------- hero 2 ---------------*/
 
-#hero2{
-
+#hero2 {
 }

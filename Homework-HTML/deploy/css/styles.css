@@ -383,16 +383,18 @@ textarea {
 ============= */
 #gallery {
   display: grid;
-  grid-template-columns: repeat, 1fr;
-  grid-template-areas: "image";
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". gallery .";
 }
 @media (min-width: 1440px) {
   #gallery {
     grid-template-columns: auto 1440px auto;
   }
 }
-#gallery > div ul {
+#gallery > div {
   grid-area: gallery;
+}
+#gallery > div ul {
   margin: 0;
   padding: 0;
   display: grid;
@@ -452,8 +454,8 @@ textarea {
 ============= */
 #hero {
   display: grid;
-  grid-template-columns: repeat, 1fr;
-  grid-template-areas: "image";
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero .";
 }
 @media (min-width: 1440px) {
   #hero {
@@ -463,20 +465,28 @@ textarea {
 #hero > div {
   grid-area: hero;
 }
+#hero > div ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0px;
+}
 @media (min-width: 768px) {
-  #hero > div aside {
+  #hero > div ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-#car {
+#hero > div li {
+  list-style: none;
+  align-items: center;
+}
+#hero #car {
   background-color: rgb(9, 188, 188);
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
 }
-
-#location {
+#hero #location {
   background-color: rgb(5, 255, 255);
   padding-top: 15px;
   padding-bottom: 15px;
