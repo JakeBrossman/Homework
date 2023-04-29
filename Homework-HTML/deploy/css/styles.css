@@ -345,6 +345,14 @@ template {
   width: 100px;
 }
 
+ul li {
+  list-style: none;
+}
+
+.wheelengine {
+  width: 25%;
+}
+
 /* =============
     Typography
 ============= */
@@ -494,3 +502,37 @@ textarea {
 }
 
 /*---------- hero 2 ---------------*/
+/* =============
+   underhero
+============= */
+#underhero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". underhero .";
+}
+@media (min-width: 1440px) {
+  #underhero {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#underhero > div {
+  grid-area: underhero;
+}
+#underhero > div ul {
+  margin: 16px;
+  padding: 0;
+  display: grid;
+  gap: 0px;
+}
+@media (min-width: 768px) {
+  #underhero > div ul {
+    grid-template-columns: 50% auto;
+  }
+}
+#underhero > div li {
+  list-style: none;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: rgb(126, 126, 119);
+}
