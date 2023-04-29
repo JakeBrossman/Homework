@@ -12,20 +12,32 @@
 
     >div{
       grid-area: hero;
-      @include md {
-         grid-template-columns: repeat(2, 1fr);
-       }
+      aside{
+         @include md {
+            grid-template-columns: repeat(2, 1fr);
+          }
+      }
+      
+      
      
           
           
       }
     }
 
+  #car{
+   background-color: rgba(9, 188, 188, 1);
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
 
-
-
-
-
+  }
+#location{
+   background-color: rgba(5, 255, 255, 1);
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+}
 
 
 

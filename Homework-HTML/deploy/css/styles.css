@@ -334,29 +334,7 @@ template {
   background-color: rgb(3, 61, 61);
 }
 .header-footer-grid > div {
-  display: grid;
-  grid-template-columns: repeat, 1fr;
-  grid-template-areas: "image";
-}
-.header-footer-grid > div > div #box1 {
-  background-color: rgb(9, 188, 188);
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.header-footer-grid > div > div #box2 {
-  background-color: rgb(5, 255, 255);
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.header-footer-grid > div > div #ride {
-  background-color: rgb(126, 126, 119);
-  width: 50%;
-  height: auto;
-}
-.header-footer-grid > div > div #engine {
-  background-color: rgb(126, 126, 119);
-  width: 50%;
-  height: auto;
+  grid-area: header-footer;
 }
 
 .large-images {
@@ -486,9 +464,23 @@ textarea {
   grid-area: hero;
 }
 @media (min-width: 768px) {
-  #hero > div {
+  #hero > div aside {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+#car {
+  background-color: rgb(9, 188, 188);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+#location {
+  background-color: rgb(5, 255, 255);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
 
 /*---------- hero 2 ---------------*/

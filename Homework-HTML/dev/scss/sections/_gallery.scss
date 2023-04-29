@@ -7,6 +7,7 @@
   grid-template-areas: "image";
   @include xxl{
     grid-template-columns: auto 1440px auto;
+    
  }
  
   > div {
