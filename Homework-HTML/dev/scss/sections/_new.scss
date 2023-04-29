@@ -11,6 +11,7 @@
      
     >div{
         grid-area: new ;
+        margin-bottom: 24px;
 
        
 
@@ -20,19 +21,57 @@
             display: grid;
             gap: 24px;
 
-            @include md {
-                grid-template-columns: repeat(2, 1fr);
+            @include md{
+  
+                display: grid;
+                gap: 16px;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-areas: 
+                "c1 c1 c2 c2"
+                "c3 c3 c4 c4"
+                ". c5 c5 .";
+               
+                li{
+                    list-style: none;
+                    background-color: rgba(248, 249, 250, 1);
+                    padding-top: 0px;
+                    padding-bottom: 50px;
+                    text-align: left;
+                    text-indent: 16px;
+                    
+                };
+                #c1{
+  
+                    grid-area: c1;
+                
+                  }
+              
+                  #c2{
+              
+                    grid-area: c2;
+                
+                  }
+              
+                  #c3{
+              
+                    grid-area: c3;
+                
+                  }
+              
+                  #c4{
+              
+                    grid-area: c4;
+                
+                  }
+              
+                  #c5{
+              
+                    grid-area: c5;
+                
+                  }
               }
 
-        li{
-            list-style: none;
-            background-color: rgba(248, 249, 250, 1);
-            padding-top: 0px;
-            padding-bottom: 50px;
-            text-align: left;
-            text-indent: 16px;
-            
-        };
+        
         }
 }
 .button{
@@ -41,3 +80,4 @@
     ;
 }
 }
+

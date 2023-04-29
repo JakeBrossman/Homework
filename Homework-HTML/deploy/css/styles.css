@@ -433,6 +433,7 @@ textarea {
 }
 #new > div {
   grid-area: new;
+  margin-bottom: 24px;
 }
 #new > div ul {
   margin: 0;
@@ -442,16 +443,34 @@ textarea {
 }
 @media (min-width: 768px) {
   #new > div ul {
-    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "c1 c1 c2 c2" "c3 c3 c4 c4" ". c5 c5 .";
   }
-}
-#new > div ul li {
-  list-style: none;
-  background-color: rgb(248, 249, 250);
-  padding-top: 0px;
-  padding-bottom: 50px;
-  text-align: left;
-  text-indent: 16px;
+  #new > div ul li {
+    list-style: none;
+    background-color: rgb(248, 249, 250);
+    padding-top: 0px;
+    padding-bottom: 50px;
+    text-align: left;
+    text-indent: 16px;
+  }
+  #new > div ul #c1 {
+    grid-area: c1;
+  }
+  #new > div ul #c2 {
+    grid-area: c2;
+  }
+  #new > div ul #c3 {
+    grid-area: c3;
+  }
+  #new > div ul #c4 {
+    grid-area: c4;
+  }
+  #new > div ul #c5 {
+    grid-area: c5;
+  }
 }
 #new .button {
   background-color: rgb(5, 255, 255);
