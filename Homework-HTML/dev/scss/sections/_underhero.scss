@@ -16,7 +16,6 @@
       grid-area: underhero;
   
       ul{
-        
         margin: 16px;
         padding: 0;
         display: grid;
@@ -29,6 +28,7 @@
       }
   
       li {
+        gap: 16px;
         list-style: none;
         align-items: center;
         padding: 16px;

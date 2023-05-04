@@ -12,7 +12,7 @@
 
   > div {
     grid-area: hero;
-    ul{
+    ul {
       margin: 0;
       padding: 0;
       display: grid;
@@ -22,19 +22,16 @@
         grid-template-columns: repeat(2, 1fr);
       }
     }
-    li{
+    li {
       list-style: none;
       align-items: center;
     }
-      
-    
   }
   #car {
     background-color: rgba(9, 188, 188, 1);
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
-    
   }
   #location {
     background-color: rgba(5, 255, 255, 1);
@@ -42,11 +39,7 @@
     padding-bottom: 15px;
     padding-left: 15px;
   }
-
 }
-
-
-
 
 /*---------- hero 2 ---------------*/
 
