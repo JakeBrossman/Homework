@@ -508,7 +508,7 @@ footer > div {
 ============= */
 #hero {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 0px auto 0px;
   grid-template-areas: ". hero .";
 }
 @media (min-width: 1440px) {
