@@ -2,5 +2,23 @@
     Header
 ============= */
 header{
-    display: flex;
+    padding: 16px 0;
+    @include xxl{
+        padding: 24px 0;
+    }
+   >div{
+    display: flex ;
+    nav{
+        margin-left: auto;
+        ul{
+            display: flex;
+            li{
+                
+            }
+        }
+
+    }
+    
+   }
+
 }
