@@ -1,0 +1,26 @@
+/* =============
+    Header
+============= */
+header{
+
+    #logo-nav{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". logo-nav .";
+        >div{
+            background-color: var(--grey);
+            grid-area: logo-nav;
+        }
+        
+    }
+
+    #form-content{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". search .";
+        >div{
+            background: white;
+            grid-area: search;
+        }
+    }
+}

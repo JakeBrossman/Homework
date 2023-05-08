@@ -1,0 +1,37 @@
+/* =============
+    Base
+============= */
+
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.show-large{
+    display: none;
+    @include lg{
+        display: block;
+    }
+}
+
+.show-extra-large{
+    display: none;
+    @include xxl{
+        display: block;
+    }
+}
+
+.test-imgs{
+    width: 100%;
+}
+
+.logo{
+    width: 100px;
+}
+
+.wheelengine{
+    width: 100px;
+}
