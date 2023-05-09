@@ -21,6 +21,8 @@
         @include md{
             grid-area: sub-hero-cards;
             grid-template-columns: 50% auto;
+            margin-bottom: 50px;
+            padding: 0px 5px;
         }
 
         aside{
@@ -29,8 +31,7 @@
             grid-template-areas: ". sub-hero .";
             background-color: var(--light-grey);
             margin-top: 16px;
-            margin-bottom: 50px;
-            padding: 0px 5px;
+            
             
             
             >div{

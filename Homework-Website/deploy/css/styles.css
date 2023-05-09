@@ -459,6 +459,13 @@ footer > div {
     grid-area: f2;
   }
 }
+footer > div #f3 ul {
+  display: flex;
+}
+footer > div #f3 ul li {
+  margin-right: 10px;
+  background-color: white;
+}
 @media (min-width: 768px) {
   footer > div #f3 {
     grid-area: f3;
@@ -526,6 +533,8 @@ footer > div {
   #sub-hero > div {
     grid-area: sub-hero-cards;
     grid-template-columns: 50% auto;
+    margin-bottom: 50px;
+    padding: 0px 5px;
   }
 }
 #sub-hero > div aside {
@@ -534,8 +543,6 @@ footer > div {
   grid-template-areas: ". sub-hero .";
   background-color: var(--light-grey);
   margin-top: 16px;
-  margin-bottom: 50px;
-  padding: 0px 5px;
 }
 #sub-hero > div aside > div {
   grid-area: sub-hero;

@@ -42,6 +42,13 @@ footer{
         } 
 
         #f3{
+            ul{
+                display: flex;
+                li{
+                    margin-right: 10px;
+                    background-color: white;
+                }
+            }
             @include md{
                 grid-area: f3;
             }
