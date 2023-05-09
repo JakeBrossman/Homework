@@ -30,12 +30,25 @@ footer{
         }
 
         #f1{
+            ul{
+                li{
+                    a{
+                        color: var(--light-blue);
+                    }
+                 i{
+                    color: var(--light-blue);
+                 }
+                }
+            }
             @include md{
                 grid-area: f1;
             }
         }   
 
         #f2{
+            button{
+                background-color: var(--light-blue);
+            }
             @include md{
                 grid-area: f2;
             }

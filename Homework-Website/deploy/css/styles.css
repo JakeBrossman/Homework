@@ -449,10 +449,19 @@ footer > div {
     grid-template-areas: "f1 f2 f3";
   }
 }
+footer > div #f1 ul li a {
+  color: var(--light-blue);
+}
+footer > div #f1 ul li i {
+  color: var(--light-blue);
+}
 @media (min-width: 768px) {
   footer > div #f1 {
     grid-area: f1;
   }
+}
+footer > div #f2 button {
+  background-color: var(--light-blue);
 }
 @media (min-width: 768px) {
   footer > div #f2 {
