@@ -533,6 +533,9 @@ footer > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". sub-hero .";
   background-color: var(--light-grey);
+  margin-top: 16px;
+  margin-bottom: 50px;
+  padding: 0px 5px;
 }
 #sub-hero > div aside > div {
   grid-area: sub-hero;
@@ -606,6 +609,8 @@ footer > div {
 #new > div {
   display: grid;
   gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 25px;
 }
 @media (min-width: 768px) {
   #new > div {

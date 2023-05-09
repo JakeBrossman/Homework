@@ -15,6 +15,8 @@
     >div{
         display: grid;
         gap: 16px;
+        margin-top: 16px;
+        margin-bottom: 25px;
 
         @include md{
             grid-area: new;
