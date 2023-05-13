@@ -13,6 +13,7 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --black2: rgba(0,0,0,1);
   --grey: rgba(3, 61, 61, 1);
   --light-grey: rgba(126, 126, 119, 1);
   --light-blue: rgba(5, 255, 255, 1);
@@ -369,6 +370,10 @@ ul li {
   width: 100px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -505,6 +510,12 @@ footer > div #f3 ul li {
 #hero #hero-bottom #hero-bottom-left {
   background-color: var(--blue-green);
 }
+#hero #hero-bottom #hero-bottom-left > div a {
+  color: var(--grey);
+}
+#hero #hero-bottom #hero-bottom-left > div i {
+  color: var(--grey);
+}
 @media (min-width: 1440px) {
   #hero #hero-bottom #hero-bottom-left {
     grid-template-columns: 20% auto 16px;
@@ -512,6 +523,12 @@ footer > div #f3 ul li {
 }
 #hero #hero-bottom #hero-bottom-right {
   background-color: var(--light-blue);
+}
+#hero #hero-bottom #hero-bottom-right > div a {
+  color: var(--grey);
+}
+#hero #hero-bottom #hero-bottom-right > div i {
+  color: var(--grey);
 }
 @media (min-width: 1440px) {
   #hero #hero-bottom #hero-bottom-right {
@@ -557,6 +574,11 @@ footer > div #f3 ul li {
   grid-area: sub-hero;
   display: grid;
   grid-template-columns: 70% auto;
+}
+#sub-hero > div aside > div a {
+  color: var(--black2);
+  background-color: var(--light-blue);
+  padding: 3px;
 }
 
 /* =============
@@ -628,6 +650,11 @@ footer > div #f3 ul li {
   margin-top: 16px;
   margin-bottom: 25px;
 }
+#new > div a {
+  color: var(--black2);
+  background-color: var(--light-blue);
+  padding: 3px;
+}
 @media (min-width: 768px) {
   #new > div {
     grid-area: new;
@@ -654,6 +681,7 @@ footer > div #f3 ul li {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". card-data .";
   background-color: rgb(248, 249, 250);
+  padding: 10px;
 }
 #new > div section .card-data > div {
   grid-area: card-data;

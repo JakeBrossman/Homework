@@ -26,6 +26,16 @@
 
         #hero-bottom-left{
             background-color: var(--blue-green);
+
+            >div{
+                a{
+                    color: var(--grey);
+                }
+                i{
+                    color: var(--grey);
+                }
+            }
+            
             @include xxl{
                 grid-template-columns: 20% auto 16px;
             }
@@ -33,6 +43,15 @@
 
         #hero-bottom-right{
             background-color: var(--light-blue);
+
+            >div{
+                a{
+                    color: var(--grey);
+                }
+                i{
+                    color: var(--grey);
+                }
+            }
             @include xxl{
                 grid-template-columns: 16px auto 20%;
             }

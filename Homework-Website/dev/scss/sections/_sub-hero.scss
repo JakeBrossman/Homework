@@ -39,6 +39,12 @@
                 grid-area: sub-hero;
                 display: grid;
                 grid-template-columns: 70% auto;
+
+                a{
+                    color: var(--black2);
+                    background-color: var(--light-blue);
+                    padding: 3px;
+                }
                 
             }
         }

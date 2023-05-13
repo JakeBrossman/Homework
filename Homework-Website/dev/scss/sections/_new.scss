@@ -18,6 +18,12 @@
         margin-top: 16px;
         margin-bottom: 25px;
 
+        a{
+            color: var(--black2);
+            background-color: var(--light-blue);
+            padding: 3px;
+        }
+
         @include md{
             grid-area: new;
             grid-template-columns: repeat(4, 1fr);
@@ -52,7 +58,7 @@
                 grid-template-columns: 16px auto 16px;
                 grid-template-areas: ". card-data .";
                 background-color: rgba(248, 249, 250, 1);
-                ;
+                padding: 10px;
                 >div{
                     grid-area: card-data;
                 }
