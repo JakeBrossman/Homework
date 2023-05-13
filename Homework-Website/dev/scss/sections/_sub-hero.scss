@@ -27,17 +27,39 @@
             padding: 0px 5px;
         }
 
-        aside{
+        >aside{
             display: grid;
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". sub-hero .";
             background-color: var(--light-grey);
             margin-top: 16px;
-            padding-bottom: 16px;
+            padding: 16px;
             
             
             
             >div{
+                    aside{
+                         
+                            #circle-img{
+                                background-image: url("../img/subHero/wheelicon.jpg");
+                                background-position: center;
+                                background-position: center;
+                                background-size: cover;
+                                width: 100%;
+                                padding-bottom: 100%;
+                                border-radius: 50%;
+                         }
+                         #circle-img2{
+                            background-image: url("../img/subHero/engineicon.jpg");
+                            background-position: center;
+                                background-position: center;
+                                background-size: cover;
+                                width: 100%;
+                                padding-bottom: 100%;
+                                border-radius: 50%;
+                         }
+
+                    }
                 
                 grid-area: sub-hero;
                 display: grid;

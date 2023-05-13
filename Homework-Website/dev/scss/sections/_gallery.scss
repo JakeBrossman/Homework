@@ -16,6 +16,7 @@
     }
 
     ul{
+        
         @include md{
             grid-area: gallery;
             display: grid;

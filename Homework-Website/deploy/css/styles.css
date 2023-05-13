@@ -585,20 +585,38 @@ footer > div #f3 ul li {
     padding: 0px 5px;
   }
 }
-#sub-hero > div aside {
+#sub-hero > div > aside {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". sub-hero .";
   background-color: var(--light-grey);
   margin-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px;
 }
-#sub-hero > div aside > div {
+#sub-hero > div > aside > div {
   grid-area: sub-hero;
   display: grid;
   grid-template-columns: 70% auto;
 }
-#sub-hero > div aside > div a {
+#sub-hero > div > aside > div aside #circle-img {
+  background-image: url("../img/subHero/wheelicon.jpg");
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+#sub-hero > div > aside > div aside #circle-img2 {
+  background-image: url("../img/subHero/engineicon.jpg");
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+#sub-hero > div > aside > div a {
   color: var(--black2);
   background-color: var(--light-blue);
   padding: 3px;
@@ -606,7 +624,7 @@ footer > div #f3 ul li {
   font-size: 14px;
   line-height: 16px;
 }
-#sub-hero > div aside > div h1 {
+#sub-hero > div > aside > div h1 {
   font-weight: 700;
   font-size: 29px;
   line-height: 35px;
