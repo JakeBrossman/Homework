@@ -34,12 +34,14 @@
         }
 
         #g1{
+           
             @include xxl{
                 grid-area: g1;
             }
         }
 
         #g2{
+            
             @include xxl{
                 grid-area: g2;
             }

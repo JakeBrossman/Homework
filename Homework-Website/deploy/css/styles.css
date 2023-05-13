@@ -601,7 +601,6 @@ footer > div #f3 ul li {
 #sub-hero > div > aside > div aside #circle-img {
   background-image: url("../img/subHero/wheelicon.jpg");
   background-position: center;
-  background-position: center;
   background-size: cover;
   width: 100%;
   padding-bottom: 100%;
@@ -609,7 +608,6 @@ footer > div #f3 ul li {
 }
 #sub-hero > div > aside > div aside #circle-img2 {
   background-image: url("../img/subHero/engineicon.jpg");
-  background-position: center;
   background-position: center;
   background-size: cover;
   width: 100%;
