@@ -377,6 +377,10 @@ a {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -489,6 +493,9 @@ footer > div #f3 ul li {
 /* =============
     Hero
 ============= */
+#hero #hero-bottom {
+  text-align: left;
+}
 @media (min-width: 768px) {
   #hero #hero-bottom {
     display: grid;
@@ -510,6 +517,11 @@ footer > div #f3 ul li {
 #hero #hero-bottom #hero-bottom-left {
   background-color: var(--blue-green);
 }
+#hero #hero-bottom #hero-bottom-left > div h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
 #hero #hero-bottom #hero-bottom-left > div a {
   color: var(--grey);
 }
@@ -523,6 +535,11 @@ footer > div #f3 ul li {
 }
 #hero #hero-bottom #hero-bottom-right {
   background-color: var(--light-blue);
+}
+#hero #hero-bottom #hero-bottom-right > div h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
 }
 #hero #hero-bottom #hero-bottom-right > div a {
   color: var(--grey);
@@ -554,6 +571,7 @@ footer > div #f3 ul li {
 #sub-hero > div {
   display: grid;
   gap: 16px;
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
   #sub-hero > div {
@@ -569,6 +587,7 @@ footer > div #f3 ul li {
   grid-template-areas: ". sub-hero .";
   background-color: var(--light-grey);
   margin-top: 16px;
+  padding-bottom: 16px;
 }
 #sub-hero > div aside > div {
   grid-area: sub-hero;
@@ -579,6 +598,14 @@ footer > div #f3 ul li {
   color: var(--black2);
   background-color: var(--light-blue);
   padding: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+#sub-hero > div aside > div h1 {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 35px;
 }
 
 /* =============
@@ -653,7 +680,10 @@ footer > div #f3 ul li {
 #new > div a {
   color: var(--black2);
   background-color: var(--light-blue);
-  padding: 3px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
 @media (min-width: 768px) {
   #new > div {
@@ -668,10 +698,40 @@ footer > div #f3 ul li {
     grid-template-areas: "nt nt nt nt nt nt" "n1 n1 n2 n2 n3 n3" ".. n4 n4 n5 n5 ..";
   }
 }
+#new > div .whatsnew {
+  margin-left: 16px;
+}
+@media (min-width: 768px) {
+  #new > div .whatsnew {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
+@media (min-width: 1024px) {
+  #new > div .whatsnew {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+  }
+}
+#new > div h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
 @media (min-width: 768px) {
   #new > div h1 {
     grid-area: nt;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
   }
+}
+#new > div p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 #new > div section img {
   width: 100%;

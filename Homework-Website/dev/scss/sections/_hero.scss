@@ -5,6 +5,7 @@
 #hero{
 
     #hero-bottom{
+        text-align: left;
 
         @include md{
             display: grid;
@@ -28,6 +29,13 @@
             background-color: var(--blue-green);
 
             >div{
+                h1{
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 20px;
+
+                }
+                
                 a{
                     color: var(--grey);
                 }
@@ -45,6 +53,11 @@
             background-color: var(--light-blue);
 
             >div{
+                h3{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                }
                 a{
                     color: var(--grey);
                 }
