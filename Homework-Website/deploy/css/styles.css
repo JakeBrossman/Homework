@@ -493,6 +493,10 @@ footer > div #f3 ul li {
 /* =============
     Hero
 ============= */
+#hero img {
+  line-height: 0;
+  display: block;
+}
 #hero #hero-bottom {
   text-align: left;
 }
@@ -611,6 +615,10 @@ footer > div #f3 ul li {
 /* =============
     Gallery
 ============= */
+#gallery {
+  line-height: 0;
+  display: block;
+}
 @media (min-width: 1024px) {
   #gallery {
     display: grid;

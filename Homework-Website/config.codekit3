@@ -57,6 +57,19 @@
       "oAP" : "\/deploy\/img\/gallery\/greygtr.jpg",
       "oF" : 0,
       "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/greygtr.jpg" : {
+      "ft" : 16384,
+      "iS" : 17164,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/greygtr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -70,7 +83,7 @@
       "oAP" : "\/deploy\/img\/gallery\/redbluegtr.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -83,7 +96,7 @@
       "oAP" : "\/deploy\/img\/gallery\/whitegtr.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -142,7 +155,7 @@
       "oAP" : "\/deploy\/img\/new\/article1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -155,7 +168,7 @@
       "oAP" : "\/deploy\/img\/new\/article2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -163,6 +176,19 @@
     "\/deploy\/img\/new\/article3.jpeg" : {
       "ft" : 16384,
       "iS" : 2026831,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/new\/article3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/new\/article3.jpg" : {
+      "ft" : 16384,
+      "iS" : 10995,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/new\/article3.jpg",
@@ -181,7 +207,7 @@
       "oAP" : "\/deploy\/img\/new\/article4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -194,7 +220,7 @@
       "oAP" : "\/deploy\/img\/new\/article5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -207,7 +233,7 @@
       "oAP" : "\/deploy\/img\/subHero\/engineicon.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -220,7 +246,7 @@
       "oAP" : "\/deploy\/img\/subHero\/wheelicon.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

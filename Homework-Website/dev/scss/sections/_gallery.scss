@@ -3,6 +3,8 @@
 ============= */
 
 #gallery{
+    line-height: 0;
+    display: block;
     @include lg{
         display: grid;
         grid-template-columns: 16px auto 16px;
