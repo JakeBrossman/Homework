@@ -4,12 +4,13 @@
 header{
 
     #logo-nav{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". logo-nav .";
+        display: flex;
+        // grid-template-columns: 16px auto 16px;
+        // grid-template-areas: ". logo-nav .";
         >div{
             background-color: var(--grey);
-            grid-area: logo-nav;
+            width: 100%;
+            // grid-area: logo-nav;
         }
         
     }

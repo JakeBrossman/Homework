@@ -63,13 +63,19 @@
                 display: grid;
                 grid-template-columns: 70% auto;
 
-                a{
+                a:link, a:visited{
                     color: var(--black2);
                     background-color: var(--light-blue);
-                    padding: 3px;
+                    padding: 5px;
                     font-weight: 700;
                     font-size: 14px;
                     line-height: 16px;
+                    transition: 0.25s;
+                    &:hover, &:active{
+                        color: var(--white);
+                        background-color: var(--blue-green);
+                        
+                    }
                 }
                 h1{
                     font-weight: 700;

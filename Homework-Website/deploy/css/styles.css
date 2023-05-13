@@ -409,13 +409,11 @@ textarea {
     Header
 ============= */
 header #logo-nav {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". logo-nav .";
+  display: flex;
 }
 header #logo-nav > div {
   background-color: var(--grey);
-  grid-area: logo-nav;
+  width: 100%;
 }
 header #form-content {
   display: grid;
@@ -458,8 +456,28 @@ footer > div {
     grid-template-areas: "f1 f2 f3";
   }
 }
-footer > div #f1 ul li a {
+footer > div #f1 h1 {
+  color: var(--light-grey);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+footer > div #f1 ul li h2 {
+  color: var(--light-grey);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+footer > div #f1 ul li a:link, footer > div #f1 ul li a:visited {
   color: var(--light-blue);
+  padding: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.25s;
+}
+footer > div #f1 ul li a:link:hover, footer > div #f1 ul li a:link:active, footer > div #f1 ul li a:visited:hover, footer > div #f1 ul li a:visited:active {
+  color: var(--blue-green);
 }
 footer > div #f1 ul li i {
   color: var(--light-blue);
@@ -469,13 +487,35 @@ footer > div #f1 ul li i {
     grid-area: f1;
   }
 }
-footer > div #f2 button {
+footer > div #f2 h1 {
+  color: var(--light-grey);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+footer > div #f2 a:link, footer > div #f2 a:visited {
+  color: var(--black2);
   background-color: var(--light-blue);
+  padding: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.25s;
+}
+footer > div #f2 a:link:hover, footer > div #f2 a:link:active, footer > div #f2 a:visited:hover, footer > div #f2 a:visited:active {
+  color: var(--white);
+  background-color: var(--blue-green);
 }
 @media (min-width: 768px) {
   footer > div #f2 {
     grid-area: f2;
   }
+}
+footer > div #f3 h1 {
+  color: var(--light-grey);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
 }
 footer > div #f3 ul {
   display: flex;
@@ -526,8 +566,16 @@ footer > div #f3 ul li {
   font-size: 18px;
   line-height: 20px;
 }
-#hero #hero-bottom #hero-bottom-left > div a {
+#hero #hero-bottom #hero-bottom-left > div a:link, #hero #hero-bottom #hero-bottom-left > div a:visited {
   color: var(--grey);
+  padding: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.25s;
+}
+#hero #hero-bottom #hero-bottom-left > div a:link:hover, #hero #hero-bottom #hero-bottom-left > div a:link:active, #hero #hero-bottom #hero-bottom-left > div a:visited:hover, #hero #hero-bottom #hero-bottom-left > div a:visited:active {
+  color: var(--white);
 }
 #hero #hero-bottom #hero-bottom-left > div i {
   color: var(--grey);
@@ -545,8 +593,16 @@ footer > div #f3 ul li {
   font-size: 16px;
   line-height: 19px;
 }
-#hero #hero-bottom #hero-bottom-right > div a {
+#hero #hero-bottom #hero-bottom-right > div a:link, #hero #hero-bottom #hero-bottom-right > div a:visited {
   color: var(--grey);
+  padding: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.25s;
+}
+#hero #hero-bottom #hero-bottom-right > div a:link:hover, #hero #hero-bottom #hero-bottom-right > div a:link:active, #hero #hero-bottom #hero-bottom-right > div a:visited:hover, #hero #hero-bottom #hero-bottom-right > div a:visited:active {
+  color: var(--white);
 }
 #hero #hero-bottom #hero-bottom-right > div i {
   color: var(--grey);
@@ -614,13 +670,18 @@ footer > div #f3 ul li {
   padding-bottom: 100%;
   border-radius: 50%;
 }
-#sub-hero > div > aside > div a {
+#sub-hero > div > aside > div a:link, #sub-hero > div > aside > div a:visited {
   color: var(--black2);
   background-color: var(--light-blue);
-  padding: 3px;
+  padding: 5px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  transition: 0.25s;
+}
+#sub-hero > div > aside > div a:link:hover, #sub-hero > div > aside > div a:link:active, #sub-hero > div > aside > div a:visited:hover, #sub-hero > div > aside > div a:visited:active {
+  color: var(--white);
+  background-color: var(--blue-green);
 }
 #sub-hero > div > aside > div h1 {
   font-weight: 700;
@@ -701,13 +762,18 @@ footer > div #f3 ul li {
   margin-top: 16px;
   margin-bottom: 25px;
 }
-#new > div a {
+#new > div a:link, #new > div a:visited {
   color: var(--black2);
   background-color: var(--light-blue);
   padding: 5px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  transition: 0.25s;
+}
+#new > div a:link:hover, #new > div a:link:active, #new > div a:visited:hover, #new > div a:visited:active {
+  color: var(--white);
+  background-color: var(--blue-green);
 }
 @media (min-width: 768px) {
   #new > div {

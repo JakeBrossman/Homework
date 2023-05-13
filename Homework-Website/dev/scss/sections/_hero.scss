@@ -40,8 +40,19 @@
 
                 }
                 
-                a{
+                a:link, a:visited{
                     color: var(--grey);
+                   
+                    padding: 5px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    transition: 0.25s;
+                    &:hover, &:active{
+                        color: var(--white);
+                        
+                        
+                    }
                 }
                 i{
                     color: var(--grey);
@@ -62,8 +73,19 @@
                     font-size: 16px;
                     line-height: 19px;
                 }
-                a{
+                a:link, a:visited{
                     color: var(--grey);
+                   
+                    padding: 5px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    transition: 0.25s;
+                    &:hover, &:active{
+                        color: var(--white);
+                        
+                        
+                    }
                 }
                 i{
                     color: var(--grey);
